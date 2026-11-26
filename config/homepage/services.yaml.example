@@ -1,6 +1,7 @@
+# Replace YOUR-SERVER-IP with this box's LAN IP (hostname -I), and fill the REDACTED keys.
 - Requests:
     - Jellyseerr:
-        href: http://192.168.86.48:5055
+        href: http://YOUR-SERVER-IP:5055
         description: Request movies & shows
         icon: jellyseerr.png
         widget:
@@ -9,7 +10,7 @@
           key: REDACTED_API_KEY
 - Media:
     - Jellyfin:
-        href: http://192.168.86.48:8096
+        href: http://YOUR-SERVER-IP:8096
         description: Stream to phone & devices (direct play)
         icon: jellyfin.png
         widget:
@@ -20,7 +21,7 @@
           enableNowPlaying: true
 - Management:
     - Sonarr:
-        href: http://192.168.86.48:8989
+        href: http://YOUR-SERVER-IP:8989
         description: TV acquisition
         icon: sonarr.png
         widget:
@@ -28,7 +29,7 @@
           url: http://127.0.0.1:8989
           key: REDACTED_API_KEY
     - Radarr:
-        href: http://192.168.86.48:7878
+        href: http://YOUR-SERVER-IP:7878
         description: Movie acquisition
         icon: radarr.png
         widget:
@@ -36,7 +37,7 @@
           url: http://127.0.0.1:7878
           key: REDACTED_API_KEY
     - Prowlarr:
-        href: http://192.168.86.48:9696
+        href: http://YOUR-SERVER-IP:9696
         description: Indexer manager
         icon: prowlarr.png
         widget:
@@ -45,7 +46,7 @@
           key: REDACTED_API_KEY
 - Downloads:
     - Transmission:
-        href: http://192.168.86.48:9091
+        href: http://YOUR-SERVER-IP:9091
         description: BitTorrent client
         icon: transmission.png
         widget:

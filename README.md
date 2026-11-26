@@ -16,6 +16,10 @@ before touching graphics; it is the part that took the longest to get right.
 
 ## Screenshots
 
+The dashboard on a cold load — header stats and every widget populating live:
+
+![Dashboard loading](docs/img/dashboard-demo.gif)
+
 One dashboard over the whole stack — live widgets for Jellyfin, the request portal,
 the *arr apps and Transmission, grouped Media → Requests → Management → Downloads:
 

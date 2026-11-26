@@ -14,6 +14,17 @@ This machine is slow and its GPU is barely supported. Everything here exists bec
 the obvious approach did not work. Read [docs/HARDWARE-DECODE.md](docs/HARDWARE-DECODE.md)
 before touching graphics; it is the part that took the longest to get right.
 
+## Screenshots
+
+One dashboard over the whole stack — live widgets for Jellyfin, the request portal,
+the *arr apps and Transmission, grouped Media → Requests → Management → Downloads:
+
+![Homepage dashboard](docs/img/homepage.png)
+
+Self-service requests via Jellyseerr (users sign in with their Jellyfin account):
+
+![Jellyseerr request portal](docs/img/jellyseerr.png)
+
 ## What this hardware actually is
 
 | | |

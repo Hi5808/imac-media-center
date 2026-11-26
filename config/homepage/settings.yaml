@@ -1,0 +1,17 @@
+title: iMac Media Center
+theme: dark
+color: slate
+headerStyle: boxed
+layout:
+  Media:
+    style: row
+    columns: 1
+  Requests:
+    style: row
+    columns: 1
+  Management:
+    style: row
+    columns: 3
+  Downloads:
+    style: row
+    columns: 1

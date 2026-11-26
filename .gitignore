@@ -1,0 +1,22 @@
+# Never commit credentials. Real API keys live in Kodi's addon_data directory,
+# outside the add-on, so they are not in this tree by design — keep it that way.
+secrets.env
+*.secret
+settings.xml.local
+
+# Kodi/add-on runtime state
+*.pyc
+__pycache__/
+*.log
+
+# Local editing leftovers
+*.bak
+*.bak-*
+*~
+.DS_Store
+
+# Proprietary NVIDIA VP3 microcode — extracted locally, NEVER committed
+firmware/nouveau/nv*
+firmware/nouveau/vuc-*
+# local NVIDIA driver download
+NVIDIA-Linux-*.run

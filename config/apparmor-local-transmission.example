@@ -1,0 +1,6 @@
+# Media-center layout: transmission writes here, *arrs hardlink out of it.
+# Without these rules transmission gets permission-denied and can segfault.
+/srv/downloads/ rw,
+/srv/downloads/** rwk,
+/srv/media/ rw,
+/srv/media/** rwk,

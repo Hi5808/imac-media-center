@@ -1,0 +1,10 @@
+#!/bin/bash
+# hwdecode - switch the media center between hardware and software video decode
+# usage: hwdecode [on|off|status]
+CONF="$HOME/.config/mpv/mpv.conf"
+case "${1:-status}" in
+  on)  sed -i 's/^hwdec=.*/hwdec=vaapi/' "$CONF"; echo "hardware decode ON  (~10% CPU at 1080p, logs nouveau gr: warnings)";;
+  off) sed -i 's/^hwdec=.*/hwdec=no/'    "$CONF"; echo "hardware decode OFF (~60% CPU at 1080p, no warnings)";;
+  status|*) grep -E '^hwdec=' "$CONF";;
+esac
+echo "(takes effect on the next video you play)"

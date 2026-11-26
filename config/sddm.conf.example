@@ -1,0 +1,6 @@
+# Kodi media-center kiosk: boot straight into Kodi, no desktop, no greeter.
+# Original Lubuntu config saved at /etc/sddm.conf.bak-prekodi
+# To get the LXQt desktop back, set: Session=Lubuntu
+[Autologin]
+User=mac
+Session=kodi.desktop

@@ -1,0 +1,55 @@
+- Requests:
+    - Jellyseerr:
+        href: http://192.168.86.48:5055
+        description: Request movies & shows
+        icon: jellyseerr.png
+        widget:
+          type: jellyseerr
+          url: http://127.0.0.1:5055
+          key: REDACTED_API_KEY
+- Media:
+    - Jellyfin:
+        href: http://192.168.86.48:8096
+        description: Stream to phone & devices (direct play)
+        icon: jellyfin.png
+        widget:
+          type: jellyfin
+          url: http://127.0.0.1:8096
+          key: REDACTED_API_KEY
+          enableBlocks: true
+          enableNowPlaying: true
+- Management:
+    - Sonarr:
+        href: http://192.168.86.48:8989
+        description: TV acquisition
+        icon: sonarr.png
+        widget:
+          type: sonarr
+          url: http://127.0.0.1:8989
+          key: REDACTED_API_KEY
+    - Radarr:
+        href: http://192.168.86.48:7878
+        description: Movie acquisition
+        icon: radarr.png
+        widget:
+          type: radarr
+          url: http://127.0.0.1:7878
+          key: REDACTED_API_KEY
+    - Prowlarr:
+        href: http://192.168.86.48:9696
+        description: Indexer manager
+        icon: prowlarr.png
+        widget:
+          type: prowlarr
+          url: http://127.0.0.1:9696
+          key: REDACTED_API_KEY
+- Downloads:
+    - Transmission:
+        href: http://192.168.86.48:9091
+        description: BitTorrent client
+        icon: transmission.png
+        widget:
+          type: transmission
+          url: http://127.0.0.1:9091
+          username: mac
+          password: REDACTED_PASSWORD

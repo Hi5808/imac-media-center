@@ -1,0 +1,17 @@
+<playercorefactory>
+  <players>
+    <!-- mpv handles video so we get VAAPI hardware decode (~10% CPU at 1080p).
+         Kodi's own players cannot: VDPAU needs GL_NV_vdpau_interop (proprietary
+         driver only) and this Kodi build has no VAAPI support. -->
+    <player name="mpv" type="ExternalPlayer" audio="false" video="true">
+      <filename>/usr/bin/mpv</filename>
+      <args>--fullscreen --really-quiet "{1}"</args>
+      <hidexsplash>true</hidexsplash>
+      <hideconsole>true</hideconsole>
+      <playcountminimumtime>120</playcountminimumtime>
+    </player>
+  </players>
+  <rules action="prepend">
+    <rule video="true" player="mpv"/>
+  </rules>
+</playercorefactory>

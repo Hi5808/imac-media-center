@@ -1,0 +1,6 @@
+[Unit]
+Description=Media disk space alert
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/disk-alert.sh

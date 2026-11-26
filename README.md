@@ -1,5 +1,11 @@
 # iMac9,1 Media Center
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Platform: Ubuntu](https://img.shields.io/badge/platform-Ubuntu-E95420?logo=ubuntu&logoColor=white)
+![Hardware: iMac9,1](https://img.shields.io/badge/hardware-iMac9%2C1%20(2009)-999999?logo=apple&logoColor=white)
+![GPU: GeForce 9400M](https://img.shields.io/badge/GPU-GeForce%209400M%20(nouveau)-76B900?logo=nvidia&logoColor=white)
+![Shell: Kodi](https://img.shields.io/badge/shell-Kodi-17B2E7?logo=kodi&logoColor=white)
+
 Turns a 2009 iMac (`iMac9,1`) into a Kodi appliance that plays 1080p H.264 with
 **hardware decoding**, and runs a full Sonarr/Radarr/Prowlarr/Transmission stack
 operable from the couch with a remote — no keyboard, no desktop, no browser.

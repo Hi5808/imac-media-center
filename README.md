@@ -21,6 +21,11 @@ the *arr apps and Transmission, grouped Media → Requests → Management → Do
 
 ![Homepage dashboard](docs/img/homepage.png)
 
+The Jellyfin library, streamed to phones and other devices (direct play — this
+hardware cannot transcode):
+
+![Jellyfin library](docs/img/jellyfin.png)
+
 Self-service requests via Jellyseerr (users sign in with their Jellyfin account):
 
 ![Jellyseerr request portal](docs/img/jellyseerr.png)
